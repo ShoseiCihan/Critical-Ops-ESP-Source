@@ -4,7 +4,6 @@
 #import "Obfuscate.h"
 #import "Quaternion.hpp"
 
-//updateEnemies
 
 int get_Health(void *_this){
   return *(int *)((uint64_t)_this + 0xC8);

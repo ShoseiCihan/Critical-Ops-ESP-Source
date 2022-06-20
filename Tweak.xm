@@ -18,7 +18,7 @@ bool IsCharacterDead(void *_this){
 }
 
 
- void *(*Component$$get_transform)(void *component) = (void *(*)(void *))getRealOffset(0x26EDDD4);
+void *(*Component$$get_transform)(void *component) = (void *(*)(void *))getRealOffset(0x26EDDD4);
 void (*Transform$$get_position_Injected)(void *Transform, Vector3 *outPosition) = (void (*)(void *, Vector3 *))getRealOffset(0x271E488);
 
 
@@ -160,7 +160,6 @@ void _TickUpdate(void *_this, float dt) {
 }
 
 void (*Character$$Update)(void* _this, float dt);
-
 void _Character$$Update(void* _this, float dt) 
 {
 

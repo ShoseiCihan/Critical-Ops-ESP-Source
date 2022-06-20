@@ -288,7 +288,7 @@ HOOK(0x1A5A1B8, _Character$$Destroy, Character$$Destroy);
   [switches addSwitch:@"ESP HEALTHBAR"
               description:@"ESP HEALTHBAR"];
 
-
+  
 
 
 

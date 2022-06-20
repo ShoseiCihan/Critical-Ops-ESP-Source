@@ -246,7 +246,6 @@ UIWindow *main = [UIApplication sharedApplication].keyWindow;
 
 void (*Character$$Destroy)(void *_this);
 void _Character$$Destroy(void *_this){
-if(_this == NULL) return;
 if(_this != NULL) {
   entityManager->removeEnemyGivenObject(_this);
   }

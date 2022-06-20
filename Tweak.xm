@@ -148,7 +148,6 @@ int playerTeam = 0;
 
 void (*TickUpdate)(void *_this, float dt);
 void _TickUpdate(void *_this, float dt) {
-    
     if(_this != NULL) {
         me->object = _this;
     }

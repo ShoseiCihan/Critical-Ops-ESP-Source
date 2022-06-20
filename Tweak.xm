@@ -29,10 +29,6 @@ return (void *) get_main();
 }
 
 
-void *mycharacter() {
-void *(*get_mycharacter)() = (void *(*)())getRealOffset(0x1753D30);
-return (void *) get_mycharacter();
-}
 
 
 

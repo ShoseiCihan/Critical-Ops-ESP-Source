@@ -252,7 +252,6 @@ void setup(){
 me = new me_t();
 entityManager= new EntityManager();
 
-HOOK(0x181B934, _TickUpdate, TickUpdate);
 
 HOOK(0x1A5BD28, _Character$$Update, Character$$Update);
 

@@ -294,14 +294,14 @@ void setupMenu() {
 
 [menu setFrameworkName:"UnityFramework"];
 menu = [[Menu alloc]              
-initWithTitle:@"                     Zeplin"
-watermarkText:@"Made By Zeplin"
+initWithTitle:@"                     Made by Cihan"
+watermarkText:@"Made By Cihan"
 watermarkTextColor:UIColorFromHex(0xc72c36)
 watermarkVisible:1.0
 titleColor:[UIColor whiteColor]
 titleFont:@"Avenir-Black"
-credits:@"Made with <3 by Zeplin"
-initWithTitle:@"By Zeplin"
+credits:@"Made by cihan#8347"
+initWithTitle:@"By cihan#8347"
 titleColor:[UIColor whiteColor]
 titleFont:@"Avenir-Black"
 initWithTitle:@"1.33"

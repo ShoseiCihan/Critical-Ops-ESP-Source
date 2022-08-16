@@ -1,5 +1,5 @@
 # Critical-Ops-ESP-Source
-Made by cihan#8347 and ZZeus #9999 for iOS || Find me->object yourself
+Made by cihan#8347 and ZZeus #9999 for iOS
 
 # me->object find
 
